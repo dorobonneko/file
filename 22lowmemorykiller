@@ -1,0 +1,4 @@
+echo "0,5,7,9,13,15" > /sys/module/lowmemorykiller/parameters/adj
+chmod 444 /sys/module/lowmemorykiller/parameters/adj
+echo "34182,52184,63281,75261,89271,102401" > /sys/module/lowmemorykiller/parameters/minfree
+chmod 444 /sys/module/lowmemorykiller/parameters/minfree
